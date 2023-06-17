@@ -1,0 +1,42 @@
+
+
+body {
+	background-color: #7496e0;
+}
+
+button {
+	height: 100px;
+	width: 100px;
+	background-color: rgb(70, 62, 184);
+	border: 0px transparent;
+	margin: 4px;
+	padding: 4px;
+}
+
+.fa {        
+	font-size: 48px;
+	color: black;
+	background-color: transparent;
+	animation-name: color; 	/*the name of the keyframes is color */
+	animation-duration: .8s; /*the animation runs for .8 seconds */
+	animation-iteration-count: 1; /*the animation runs one time */
+}
+
+.reset {
+	padding: 8px;
+}
+
+.reset:hover {
+	opacity: 0.8;
+}
+	
+@keyframes color {  /*this is the color that appears when you click on a cell, first turning yellow and then animating to transparent */
+	0% {
+		background-color:  #d9e073;
+	}
+	100% {
+		background-color: transparent;
+	}
+}
+
+
